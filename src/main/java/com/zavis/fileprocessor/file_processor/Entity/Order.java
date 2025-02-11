@@ -45,12 +45,12 @@ public class Order {
 	private String productName;
 
 	@XmlElement(name = "quantity")
-	@Min(value = 1, message = "Quantity must be greated than 0")
+	@Min(value = 1, message = "Quantity must be greater than 0")
 	@Column(nullable = false)
 	private int quantity;
 
 	@XmlElement(name = "price")
-	@Min(value = 1, message = "Price must be greated than 0")
+	@Min(value = 1, message = "Price must be greater than 0")
 	@Column(nullable = false)
 	private double price;
 }
