@@ -1,5 +1,8 @@
 package com.zavis.fileprocessor.file_processor.Processor;
 
-public class FileProcessor {
+import java.io.IOException;
+
+public interface FileProcessor {
+	void process(String filePath);
 
 }
